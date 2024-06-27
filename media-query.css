@@ -25,3 +25,14 @@
     img#print{display: none;}
     img#phone{display: none;}
 }
+
+@media screen and (min-width: 1366px){
+    body{
+        background-image: url(img/back-tv.jpg);
+    }
+    img#tv{display: block;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#phone{display: none;}
+}
